@@ -1,0 +1,14 @@
+.place__paragraph-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .place__paragraph-container {
+    grid-area: text;
+    max-height: 370px;
+    align-self: flex-start;
+  }
+}

@@ -1,0 +1,5 @@
+.photo-grid__item_place_kasubi {
+  background-image: url(/images/grid-kasubi.jpg);
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,16 @@
+.button__paragraph {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .button__paragraph {
+    width: 100%;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

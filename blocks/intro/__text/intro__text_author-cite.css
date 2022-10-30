@@ -1,0 +1,31 @@
+.intro__text_author-cite {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.417;
+  font-weight: 400;
+  text-align: right;
+}
+
+@media screen and (min-width: 544px) {
+  .intro__text_author-cite {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 744px) {
+  .intro__text_author-cite {
+    margin-top: -1.4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__text_author-cite {
+    width: 70.796460176991150442477876106195%;
+  }
+}
+
+@media screen and (min-width: 1049px) and (max-width: 1145px) {
+  .intro__text_author-cite {
+    margin-top: -0.2rem;
+  }
+}

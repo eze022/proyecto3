@@ -1,0 +1,19 @@
+.cover__background {
+  background-image: url(/images/cover-paisaje.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 254px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__background {
+    height: 746px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__background {
+    height: 740px;
+  }
+}

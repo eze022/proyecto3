@@ -1,0 +1,19 @@
+.intro {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 2.375rem;
+}
+
+@media screen and (min-width: 544px) {
+  .intro {
+    width: 93.75%;
+    padding-bottom: 4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    width: 79.453125%;
+    padding-bottom: 5.75rem;
+  }
+}

@@ -1,0 +1,11 @@
+.photo-grid__item_place_village {
+  background-image: url(/images/grid-village.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 544px) {
+  .photo-grid__item_order-8 {
+    padding-bottom: 74.576271186440677966101694915254%;
+  }
+}

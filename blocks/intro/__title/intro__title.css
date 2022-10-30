@@ -1,0 +1,22 @@
+.intro__title {
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 0.5625rem;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.09;
+}
+
+@media screen and (min-width: 544px) {
+  .intro__title {
+    font-size: 3.375rem;
+    line-height: 1.0741;
+    margin-bottom: 0.9375rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__title {
+    margin-bottom: 2.5rem;
+  }
+}
