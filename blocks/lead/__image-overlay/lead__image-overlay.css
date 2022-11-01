@@ -1,5 +1,9 @@
 .lead__image-overlay {
-  height: inherit;
+  height: calc(100% - 3.39px);
+  width: 100%;
   background-color: rgba(0, 0, 0, 1);
   mix-blend-mode: hue;
+  position: absolute;
+  top: 0;
+  left: 0;
 }

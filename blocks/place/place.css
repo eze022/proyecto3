@@ -16,7 +16,7 @@
     display: grid;
     align-items: start;
     grid-gap: 24px 28px;
-    grid-template-columns: 0.49132947976878612716763005780347fr 0.50867052023121387283236994219653fr;
+    grid-template-columns: 340px auto;
     grid-template-rows: 1fr auto auto;
     grid-template-areas:
       "header website"
@@ -65,9 +65,9 @@
   }
 }
 
-@media screen and (min-width: 1027px) and (max-width: 1280px) {
+@media screen and (min-width: 1049px) and (max-width: 1279px) {
   .place {
-    max-width: 964px;
+    max-width: 984px;
   }
 }
 
@@ -75,9 +75,6 @@
   .place {
     grid-gap: 48px 40px;
     max-width: 76.875%;
-    grid-template-columns: minmax(0, 0.48728813559322033898305084745763fr) minmax(
-        0,
-        0.51271186440677966101694915254237fr
-      );
+    grid-template-columns: 460px auto;
   }
 }

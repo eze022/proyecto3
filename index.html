@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="/images/logo.png" />
+    <link rel="icon" href="./images/logo.png" />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>De patria a patria</title>
   </head>
@@ -12,7 +12,7 @@
     <div class="page">
       <header class="header">
         <img
-          src="/images/practicum-logo.svg"
+          src="./images/practicum-logo.svg"
           alt="practicum-logo"
           class="header__logo"
         />
@@ -22,8 +22,12 @@
           <p class="lead__subtitle">
             Un viaje épico de Kentucky a Burundi pasando por Gales y Ucrania
           </p>
-
-          <div class="lead__image">
+          <div class="lead__container">
+            <img
+              class="lead__image"
+              src="./images/lead-paisaje.jpg"
+              alt="landscape"
+            />
             <div class="lead__image-overlay"></div>
           </div>
         </div>
@@ -58,16 +62,62 @@
         </section>
 
         <ul class="photo-grid">
-          <li
-            class="photo-grid__item photo-grid__item_place_criccieth-coast"
-          ></li>
-          <li class="photo-grid__item photo-grid__item_place_criccieth"></li>
-          <li class="photo-grid__item photo-grid__item_place_castle"></li>
-          <li class="photo-grid__item photo-grid__item_place_kiev"></li>
-          <li class="photo-grid__item photo-grid__item_place_countryside"></li>
-          <li class="photo-grid__item photo-grid__item_place_park"></li>
-          <li class="photo-grid__item photo-grid__item_place_kasubi"></li>
-          <li class="photo-grid__item photo-grid__item_place_village"></li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/grid-criccieth-coast.jpg"
+              alt="criccieth-coast"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/grid-criccieth.jpg"
+              alt="criccieth"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/grid-castle.jpg"
+              alt="castle"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/grid-kiev.jpg"
+              alt="kiev"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/grid-countryside.jpg"
+              alt="countryside"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/grid-park.jpg"
+              alt="park"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/grid-kasubi.jpg"
+              alt="kasubi"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/grid-village.jpg"
+              alt="village"
+            />
+          </li>
         </ul>
 
         <ul class="places">
@@ -79,7 +129,11 @@
                 Natalia Dolgushina, productora de contenidos
               </p>
             </div>
-            <div class="place__image place__image_city_kiev"></div>
+            <img
+              class="place__image"
+              src="./images/place-kiev.jpg"
+              alt="kiev"
+            />
             <div class="place__paragraph-container">
               <p class="place__paragraph">
                 Kiev (o Kyiv), la capital de Ucrania, es una gran ciudad situada
@@ -122,7 +176,11 @@
                 del proyecto
               </p>
             </div>
-            <div class="place__image place__image_city_criccieth"></div>
+            <img
+              class="place__image"
+              src="./images/place-criccieth.jpg"
+              alt="criccieth"
+            />
             <div class="place__paragraph-container">
               <p class="place__paragraph">
                 La ruina medieval del castillo de Criccieth domina la ciudad
@@ -163,7 +221,11 @@
               <h2 class="place__url-heading">Artista</h2>
               <p class="place__artist">Travis Turner, autor y editor</p>
             </div>
-            <div class="place__image place__image_city_barea"></div>
+            <img
+              class="place__image"
+              src="./images/place-barea.jpg"
+              alt="barea"
+            />
             <div class="place__paragraph-container">
               <p class="place__paragraph">
                 Berea es una pequeña ciudad situada en la parte central de
@@ -202,7 +264,11 @@
               <h2 class="place__url-heading">Artista</h2>
               <p class="place__artist">Grevisse Kenguruka, editor técnico</p>
             </div>
-            <div class="place__image place__image_city_muramvya"></div>
+            <img
+              class="place__image"
+              src="./images/place-marambya.jpg"
+              alt="marambya"
+            />
             <div class="place__paragraph-container">
               <p class="place__paragraph">
                 Muramvya es una de las 18 provincias de Burundi. En la época del
@@ -252,7 +318,11 @@
                 Ezequiel Moreno, estudiante de Practicum
               </p>
             </div>
-            <div class="place__image place__image_city_bsas"></div>
+            <img
+              class="place__image"
+              src="./images/place-bsas.jpg"
+              alt="buenos-aires"
+            />
             <div class="place__paragraph-container">
               <p class="place__paragraph">
                 Buenos Aires o la Ciudad Autónoma de Buenos Aires (CABA), es la

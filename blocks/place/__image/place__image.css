@@ -1,35 +1,17 @@
 .place__image {
-  padding-bottom: 100%;
-  align-self: stretch;
-}
-
-@media screen and (min-width: 400px) and (max-width: 500px) {
-  .place__image {
-    padding-bottom: 65%;
-  }
-}
-
-@media screen and (min-width: 501px) and (max-width: 600px) {
-  .place__image {
-    padding-bottom: 55%;
-  }
-}
-
-@media screen and (min-width: 601px) and (max-width: 767px) {
-  .place__image {
-    padding-bottom: 50%;
-  }
+  height: 320px;
 }
 
 @media screen and (min-width: 768px) {
   .place__image {
+    height: 340px;
     align-self: flex-start;
     grid-area: image;
   }
 }
 
-@media screen and (min-width: 1450px) {
+@media screen and (min-width: 1280px) {
   .place__image {
-    padding-bottom: 60%;
+    height: 460px;
   }
 }
